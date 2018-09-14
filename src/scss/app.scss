@@ -1,0 +1,23 @@
+@import 'node_modules/vue-material/dist/theme/engine'; // Import the theme engine
+
+@include md-register-theme(
+  'default',
+  (
+    primary: md-get-palette-color(blue, 600),
+    // The primary color of your application
+      accent: md-get-palette-color(red, 600),
+    // The accent or secondary color
+      theme: light// This can be dark or light
+  )
+);
+
+@import 'node_modules/vue-material/dist/theme/all'; // Apply the theme
+
+/* auto full height md-app */
+.page-container .md-app {
+  height: 100vh;
+}
+
+.md-layout-full-height {
+  height: 100%;
+}
