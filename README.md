@@ -1,38 +1,42 @@
 # rollup-cordova-vuejs
-Rollup Cordova with splashscreen plugin 
-  + VueJS with VueRouter and VueRessource 
-  + VueMaterial with a base application Template including a swipe left menu.
-  
 
-# HOWTO
-install node modules
-+ npm install
+Rollup Cordova with splashscreen plugin
 
-install browser support for developpement
-+ cordova platform add browser
+- VueJS with VueRouter and VueRessource
+- VueMaterial with a base application Template including a swipe left menu.
 
-install android and/or ios if you  want
-+ cordova platform add android
-+ cordova platform add ios
+### HOWTO
 
-add specific requirements needed by cordova for the platform
-you can check install is fine
-+ cordova requirements
+*install node modules*
+    npm install
 
-start simulate server for browser test (don't kill this server during developpement)
-+ npm run server
+*install browser support for developpement*
+    cordova platform add browser
 
-start developpement with auto build
-+ npm run dev
+*install android and/or ios if you want*
+    cordova platform add android
+    cordova platform add ios
 
-change vue file in /src directory and enjoy
-all change will automaticly bundle, you just need to refresh your browser to show the change
+*add specific requirements needed by cordova for the platform
+you can check install is fine*
+    cordova requirements
 
-deploy application on phone (android or ios)
-+ npm run android
-+ npm run ios
+*start simulate server for browser test (don't kill this server during developpement)*
+    npm run server
 
-# generated rollup file :
- + /www/css/bundle.css               // bundle css for /src/scss/app.scss
- + /www/css/bundle_component.css     // include style present in .vue file
- + /www/js/bundle.js                 // bundle of VueJs Application
+*start developpement with auto build*
+    npm run dev
+
+*change vue file in /src directory and enjoy*
+
+*all change will automaticly bundle, you just need to refresh your browser to show the change*
+
+*deploy application on phone (android or ios)*
+    npm run android
+    npm run ios
+
+### generated rollup file :
+
+- /www/css/bundle.css // bundle css for /src/scss/app.scss
+- /www/css/bundle_component.css // include style present in .vue file
+- /www/js/bundle.js // bundle of VueJs Application
