@@ -1,3 +1,7 @@
-nodes_modules/
+node_modules/
 platforms/
 plugins/
+
+www/css/bundle_component.css
+www/css/bundle.css
+www/js/bundle.js
